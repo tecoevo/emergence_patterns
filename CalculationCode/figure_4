@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run this file in a terminal to obtain the data required to recreate Figure 3 of the manuscript.
+
+julia --project --threads=auto CalculationCode/replicator_mutator_emergence_patterns.jl --h=10.0 --neighbours=40 --savefile figure_4_results

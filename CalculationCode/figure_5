@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run this file in a terminal to obtain the data required to recreate Figure 5 of the manuscript.
+
+julia --project --threads=auto CalculationCode/replicator_mutator_emergence_patterns.jl  --neighbours=40 --evalCode='δ_list=[[1,1],[1,2],[2,3],[2,4],[3,5],[3,6],[4,7],[4,8],[5,9],[5,10],[6,11],[6,12],[7,13],[7,14],[8,15]]' --problem_area_number=2 --savefile figure_5_results

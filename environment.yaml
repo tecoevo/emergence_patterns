@@ -1,0 +1,9 @@
+name: clunio-basin-attraction
+channels:
+  - conda-forge
+dependencies: 
+  - python=3.11.6
+  - numpy=1.24.2
+  - scipy=1.12.0
+  - matplotlib=3.7.1
+  - numba=0.59.1
